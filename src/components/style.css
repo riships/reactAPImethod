@@ -1,0 +1,139 @@
+.div1 {
+    text-align: center;
+}
+
+.atag {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  background-color: red;
+  display: inline-block;
+  height: 28px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.spanClass {
+  display: inline-block;
+  border-bottom: 2px solid;
+  margin: 15px;
+  font-size: 51px;
+  font-weight: 600;
+  color: #747171;
+}
+
+.card {
+    width: 320px;
+    height: 590px;
+    margin: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+  
+  .label {
+    width: 93px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .value {
+    margin-left: 5px;
+    text-align: left;
+  }
+
+  .floating-div {
+    float: left;
+  }
+
+  .divImg{
+    padding: 10px;
+  }
+
+  .divImg img{
+    height: 180px;
+    width: 180px;
+  }
+
+  .butDiv {
+    padding: 15px;
+  }
+
+  .btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    width: 50%;
+    margin: 0px 10px 0px 10px; 
+  }
+  
+  .btn:hover {
+    background-color: #1E88E5;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .addbtn {
+    background: #2196f3;
+    font-size: 123px;
+    color: white;
+    border-radius: 100%;
+    border: solid;
+    height: 150px;
+    width: 150px;
+  }
+
+  .addbtn:hover {
+    background-color: #1E88E5;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  input{
+    width: 100%;
+    padding: 12px 17px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input:focus {
+    border: 2px solid #555;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+  
+  
+  
