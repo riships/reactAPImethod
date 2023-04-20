@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import "../../reactAPImethod/src/components/style.css"
 
 const api = "http://localhost:3001/data_array";
+// this api is live now so wait and see
 
 function App() {
 
